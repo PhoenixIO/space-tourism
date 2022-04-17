@@ -1,0 +1,22 @@
+.home-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	perspective: 500px;
+}
+
+.home-welcome {
+	color: white;
+	font-size: 45px;
+
+	p {
+		font-size: 30px;
+		margin-top: 15px;
+	}
+}
+
+.start-travel-btn {
+	margin-top: 30px;
+	transform: rotateX(10deg);
+	animation: rotateAngle 6s linear infinite;
+}

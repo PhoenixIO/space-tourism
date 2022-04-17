@@ -1,0 +1,32 @@
+.about-text {
+  margin: 50px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+
+  a {
+    color: rgb(198, 194, 255);
+  }
+}
+
+.about-cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.about-col {
+  font-size: 22px;
+  width: 30%;
+}
+
+@media screen and (max-width: 950px) {
+  .about-cols {
+    flex-direction: column;
+  }
+
+  .about-col {
+    width: 100%;
+  }
+}
